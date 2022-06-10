@@ -34,7 +34,7 @@ class Lecturer(Mentor):
         
 
 class Reviewer(Mentor):
-    def __init__(self,name,surname):
+    def __init__(self):
         pass
     def rate_hw(self, student, course, grade):
         if isinstance(student, Student) and course in self.courses_attached and course in student.courses_in_progress:
