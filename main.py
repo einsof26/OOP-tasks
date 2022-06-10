@@ -27,3 +27,10 @@ class Mentor:
             return 'Ошибка'
 
 
+class Lecturer(Mentor):
+    def __init__(self,name,surname):
+        pass
+
+class Reviewer(Mentor):
+    def __init__(self,name,surname):
+        pass
